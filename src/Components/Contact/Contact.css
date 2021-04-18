@@ -6,6 +6,7 @@
 
 .contact-body {
   padding:30px ;
+
 }
 
 .contact-body a {
@@ -25,9 +26,10 @@
 .contact-body p { 
    
     padding: 30px;
-    font-size: 30px;
+    font-size: 95%;
     text-decoration: none;
     color: black;
     border-radius: 16px;
     text-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.8), -2px -2px 4px rgba( 255, 255, 255, 0.4);  
+    word-wrap: break-word;
 }
