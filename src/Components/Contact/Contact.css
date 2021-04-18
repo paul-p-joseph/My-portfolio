@@ -1,0 +1,33 @@
+.contact-container {
+    padding: 30px;
+    background-image: url('../portfolio\ background.jfif');
+    border-bottom: 100px solid  #333;
+}
+
+.contact-body {
+  padding:30px ;
+}
+
+.contact-body a {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;
+    background-color: darkcyan;
+}
+
+.contact-body a:hover {
+    background-color: turquoise;
+}
+
+.contact-body p { 
+   
+    padding: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;
+    text-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.8), -2px -2px 4px rgba( 255, 255, 255, 0.4);  
+}

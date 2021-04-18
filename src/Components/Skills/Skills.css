@@ -1,0 +1,65 @@
+.skills-container {
+    background-image: url('../portfolio\ background.jfif');
+    padding: 30px;
+    
+}
+
+.skills-heading {
+   background-color: darkcyan;
+   width: auto;
+   text-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.8), -2px -2px 4px rgba( 255, 255, 255, 0.4);
+   padding: 30px;
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.8); 
+   border-radius: 16px;
+  
+}
+
+.skills-class{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-class h2 {
+    font-size: 25px;
+}
+
+.skills-class h3 {
+    font-size: 20px;
+}
+
+.title-div {
+    flex: 1;
+    border-right: 5px solid black;
+}
+
+.item-div {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+
+.class-title {
+    padding: 15px;
+    background-color: darkcyan;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+   
+    margin-right: 30px;
+}
+
+.class-items{
+    
+    background-color: black;
+    color: darkcyan;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 150px;
+}
