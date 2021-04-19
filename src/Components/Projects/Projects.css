@@ -11,11 +11,15 @@
 }
 
 .projectcard{
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8), -5px -5px 10px rgba(0,0,0,0.8);
     transition: 0.3s;
-    background-color: darkcyan;
+    background-color:#333;
     border-radius: 16px;
     padding:20px;
+    color: ivory;
+    text-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.8), -2px -2px 4px rgba( 255, 255, 255, 0.4);  
+    border: 3px solid ivory;
+    
 }
 
 .projectcard:hover {
@@ -25,6 +29,7 @@
 
 .projectcard img {
     border-radius: 16px;
+    border: 3px solid ivory;
 }
 
 .card-details{
@@ -32,16 +37,18 @@
 }
 
 .card-details a {
-    color: black;
+    color: ivory;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
     padding: 5px;
     border-radius: 16px;
     text-decoration:none;
     font-size: 20px;
+    border: 3px solid ivory;
     
     
 }
 .card-details a:hover {
-  background-color:mediumturquoise;
+  background-color:white;
   color: black;
+
 }

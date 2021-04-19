@@ -8,7 +8,7 @@ function Home() {
               <img src={paulimage} alt="img" width="300" height="350"/>
                   </div>     
                   <div className='home-details'>
-                      <h1>Hi, I'm <span>Paul P Joseph</span></h1>
+                      <h1>Hi, I'm Paul P Joseph</h1>
                       <p>I'm a Software Engineer specialized in Web application development,
                            having fluent knowledge front-end frameworks such as react and back-end 
                             development, developed many full-stack based web

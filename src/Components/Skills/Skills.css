@@ -5,13 +5,15 @@
 }
 
 .skills-heading {
-   background-color: darkcyan;
+   background-color: #333;
    width: auto;
    text-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.8), -2px -2px 4px rgba( 255, 255, 255, 0.4);
    padding: 30px;
-   box-shadow: 5px 5px 10px rgba(0,0,0,0.8); 
-   border-radius: 16px;
-  
+   box-shadow: 5px 5px 10px rgba(0,0,0,0.8), -5px -5px 10px rgba(0,0,0,0.8); 
+    border-radius: 16px;
+ 
+  border:  3px solid ivory;
+  color: ivory;
 }
 
 .skills-class{
@@ -44,22 +46,24 @@
 
 .class-title {
     padding: 15px;
-    background-color: darkcyan;
+    background-color: #333;
     text-align: center;
     border-radius: 16px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
-   
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8), -5px -5px 10px rgba(0,0,0,0.8);
+    color: ivory;
     margin-right: 30px;
+    border: 3px solid ivory;
 }
 
 .class-items{
     
-    background-color: black;
-    color: darkcyan;
+   
+    color: black;
     padding: 15px;
     border-radius: 16px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8), -5px -5px 10px rgba(0,0,0,0.8);
     margin-right: 30px;
     margin-left: 30px;
     width: 150px;
+    border: 3px solid black;
 }
